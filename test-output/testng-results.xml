@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="16" passed="8" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-04-06T06:02:55Z" name="Suite" finished-at="2019-04-06T06:02:56Z" duration-ms="1357">
+    <groups>
+      <group name="Regression">
+        <method signature="Testng3.Third1()[pri:1, instance:Testng.Testng3@c0c2f8d]" name="Third1" class="Testng.Testng3"/>
+        <method signature="Testng3.Third2()[pri:3, instance:Testng.Testng3@c0c2f8d]" name="Third2" class="Testng.Testng3"/>
+        <method signature="Testng3.Third3()[pri:2, instance:Testng.Testng3@c0c2f8d]" name="Third3" class="Testng.Testng3"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Testng1.new2()[pri:2, instance:Testng.Testng1@4988d8b8]" name="new2" class="Testng.Testng1"/>
+        <method signature="Testng1.new3()[pri:3, instance:Testng.Testng1@4988d8b8]" name="new3" class="Testng.Testng1"/>
+        <method signature="Testng1.new4()[pri:4, instance:Testng.Testng1@4988d8b8]" name="new4" class="Testng.Testng1"/>
+        <method signature="Testng1.new5()[pri:5, instance:Testng.Testng1@4988d8b8]" name="new5" class="Testng.Testng1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2019-04-06T06:02:55Z" name="Testjunit" finished-at="2019-04-06T06:02:56Z" duration-ms="827">
+      <class name="org.sample.wd.TestJunit2">
+        <test-method signature="new2()" started-at="2019-04-06T06:02:56Z" name="new2" finished-at="2019-04-06T06:02:56Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new2 -->
+        <test-method signature="new1()" started-at="2019-04-06T06:02:56Z" name="new1" finished-at="2019-04-06T06:02:56Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new1 -->
+        <test-method signature="new3()" started-at="2019-04-06T06:02:56Z" name="new3" finished-at="2019-04-06T06:02:56Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new3 -->
+        <test-method signature="new4()" started-at="2019-04-06T06:02:56Z" name="new4" finished-at="2019-04-06T06:02:56Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new4 -->
+        <test-method signature="new5()" started-at="2019-04-06T06:02:56Z" name="new5" finished-at="2019-04-06T06:02:56Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new5 -->
+      </class> <!-- org.sample.wd.TestJunit2 -->
+      <class name="org.sample.wd.TestJunit1">
+        <test-method signature="test()" started-at="2019-04-06T06:02:55Z" name="test" finished-at="2019-04-06T06:02:56Z" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test2()" started-at="2019-04-06T06:02:55Z" name="test2" finished-at="2019-04-06T06:02:56Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test4()" started-at="2019-04-06T06:02:55Z" name="test4" finished-at="2019-04-06T06:02:56Z" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test3()" started-at="2019-04-06T06:02:55Z" name="test3" finished-at="2019-04-06T06:02:55Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- org.sample.wd.TestJunit1 -->
+    </test> <!-- Testjunit -->
+    <test started-at="2019-04-06T06:02:56Z" name="Testng" finished-at="2019-04-06T06:02:56Z" duration-ms="109">
+      <class name="Testng.Testng3">
+        <test-method signature="Third1()[pri:1, instance:Testng.Testng3@c0c2f8d]" started-at="2019-04-06T06:02:56Z" name="Third1" finished-at="2019-04-06T06:02:56Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Third1 -->
+      </class> <!-- Testng.Testng3 -->
+    </test> <!-- Testng -->
+  </suite> <!-- Suite -->
+</testng-results>
